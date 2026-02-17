@@ -28,11 +28,7 @@ function weedEat(name, callback) {
     }
   }, CHORE_TIMES.weed);
 }
-mowYard("Willow", () => {
-  weedEat("Willow", () => {
-    console.log("Weed eating complete — callback ran ✅");
-  });
-});
+
 function trimHedges(name, callback) {
   setTimeout(() => {
     if (staysAwake()) {
