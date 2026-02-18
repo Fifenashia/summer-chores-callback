@@ -21,3 +21,7 @@ The program includes two versions:
 Both versions use:
 - setTimeout to simulate time delays.
 - Math.random() to determine if the person stays awake.
+
+## asyncAwaitVersion.js
+- Uses async/await to run each chore in order.
+- doSummerChores uses try/catch to handle a rejected Promise when the person falls asleep.
